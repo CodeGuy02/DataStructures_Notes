@@ -1,9 +1,9 @@
 .table {
     display: table;
-    width: 80%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding: 5px 5px;
+    padding: 0px 0px;
     border-spacing: 40px;   /* spacing between rows */
     /* border: 2px solid; */
 }
@@ -16,8 +16,8 @@
 .cell{
     display: table-cell;
     border-radius: 12px;
-    background-color: #87CEEB;
-    background-image: linear-gradient(darkred, orangered);
+    background-color: indianred;
+    /*background-image: radial-gradient(darkred,darkred, orangered);*/
     /* color: #000080; */
     color: black;
     text-align: left;
@@ -30,13 +30,16 @@
 
 .cell:hover {
     transform: translateY(-10px);
-    box-shadow: 5px 5px 10px skyblue;
-    border: 3px solid white;
+    box-shadow: 5px 5px 10px orange;
+    border: 3px solid orange;
 }
 
 body {
     width: 100%;
-    margin-top: auto;
+    padding: 0px 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: auto;   
     text-align: center;
     background-color: darkred; 
     font-family: sans-serif;

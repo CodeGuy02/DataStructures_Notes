@@ -19,7 +19,6 @@
     background-color: indianred;
     /*background-image: radial-gradient(darkred,darkred, orangered);*/
     /* color: #000080; */
-    color: black;
     text-align: left;
     vertical-align: top;
     /* border: 2px solid white; */
@@ -41,7 +40,8 @@ body {
     margin-right: 0px;
     margin-top: auto;   
     text-align: center;
-    background-color: darkred; 
+    background-image: linear-gradient(darkred, #3B0000); 
+    text-shadow: 1px 1px 5px black;
     font-family: sans-serif;
     color:whitesmoke;
 }
